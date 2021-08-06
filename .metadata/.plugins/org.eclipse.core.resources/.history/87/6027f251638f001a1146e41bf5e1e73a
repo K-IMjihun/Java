@@ -1,0 +1,16 @@
+//	조건문과 반복문
+//	변수, 자료형, 연산자를 복습 및 응용
+
+public class Tutorial5 {
+
+	public static void main(String[] args) {
+
+	string a = "i love you.";
+	if(a.contains("love"))
+	{
+	
+
+	}
+	}
+
+}

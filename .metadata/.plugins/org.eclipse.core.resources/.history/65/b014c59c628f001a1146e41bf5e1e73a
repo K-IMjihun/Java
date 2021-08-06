@@ -1,0 +1,16 @@
+
+public class Tutorial0 {
+
+	public static void main(String[] args) {
+
+		int i =20;
+		i = i+1;
+//		= i += 1;
+//		좌항을 우항에 넣어라는뜻
+		System.out.println(i);
+		System.out.println(( 100 < i ) && ( i < 200 ));
+//		(100<i<200)으로는 값을 찾을 수 없다.
+
+	}
+
+}

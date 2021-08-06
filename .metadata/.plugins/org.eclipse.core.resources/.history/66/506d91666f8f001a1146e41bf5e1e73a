@@ -1,0 +1,26 @@
+
+public class Tutorial6666 {
+	
+	final static int N = 30;
+
+	public static void main(String[] args) {
+
+//		for문 : 초기화 부분, 조건부분, 연산부분
+		for(int i = N; i > 0; i--)
+		{
+			
+			for(int j = i; j > 0; j--)
+			{
+			System.out.print("*");
+//		n이 30이여서 *이 30번 출력이 된다
+			}
+		System.out.println();
+
+		}
+	}
+}
+
+	
+	
+
+

@@ -1,0 +1,18 @@
+
+public class Tutorial2 {
+
+	public static void main(String[] args) {
+
+
+	int intType = 100;
+	double dobuleType = 150.5;
+	String stringType = "±Ë¡ˆ»∆";
+	
+	System.out.println(intType);
+	System.out.println(doubleType);
+	System.out.println(stringType);
+
+		
+	}
+
+}

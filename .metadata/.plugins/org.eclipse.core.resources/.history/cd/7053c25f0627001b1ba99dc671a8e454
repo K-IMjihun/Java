@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class moneydummy {
+
+	public static void main(String[] args) {
+		int oman ;
+		int ooman;
+		int man ;
+		int mman;
+		int ochon;
+		int oochon;
+		int chon;
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("지폐 갯수 계산기입니다 . 금액을 입력 해주세요");
+		int money = sc.nextInt();
+		oman = money/50000;
+		ooman = money%50000;
+		man = ooman/10000;
+		mman = ooman%10000;
+		ochon = mman/5000;
+		oochon = mman%5000;
+		chon = oochon/1000;
+		System.out.println("오만원권 " + oman );
+		System.out.println("만원권" + man);
+		System.out.println("오천원권 " + ochon);
+		System.out.println("천원권 " + chon);
+		System.out.println("입니다");
+	}
+
+}

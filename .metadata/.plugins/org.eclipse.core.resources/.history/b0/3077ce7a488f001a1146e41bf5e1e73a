@@ -1,0 +1,15 @@
+
+public class Tutorial2 {
+
+	public static void main(String[] args) {
+
+
+	int intType = 100;
+	double dobuleType = 150.5;
+	String stringType = "±Ë¡ˆ»∆";
+	
+
+		
+	}
+
+}

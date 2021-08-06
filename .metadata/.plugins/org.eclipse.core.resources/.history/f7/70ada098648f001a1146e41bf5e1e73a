@@ -1,0 +1,23 @@
+//	조건문과 반복문
+//	변수, 자료형, 연산자를 복습 및 응용
+
+public class Tutorial5 {
+
+	public static void main(String[] args) {
+
+	String a = "i love you.";
+		if(a.contains("love"))
+		{
+//		포함하는 경우 실행되는 부분
+		System.out.println("Me too.");
+		}
+		else
+		{
+//		포함되지 않는 경우 실행되는 부분
+		System.out.println("I hate you.");
+		}
+
+	
+	}
+
+}

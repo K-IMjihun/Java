@@ -1,0 +1,18 @@
+
+public class Tutorial666 {
+
+	public static void main(String[] args) {
+
+		int i = 1, sum = 0;
+//		한번에 변수를 두개 설정가능
+//		i = 임시적 변수   sum = 합계를 의미 
+		while(i <= 1000)
+//		while문은 참값일때 한해서 아랫값을 실행
+		{
+			sum += i++;
+//			+= 앞의 변수에 뒤의 값을 더하는것
+			System.out.println("1부터 1000까지의 합은 " + sum + "입니다.");
+		}
+	}
+
+}

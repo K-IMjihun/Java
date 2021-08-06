@@ -1,0 +1,21 @@
+
+public class Book {
+	String title, author;
+	void show(){System.out.print(title + " " + author);}
+	
+
+	public Book(String title) {
+		this(title, "작자미상");
+	}
+	public Book(String title, String author) {
+		this.title = title;
+		this.author = author;
+	}
+
+	public static void main(String[] args) {
+	Book loveStory = new Book("춘향전");
+	loveStory.show();
+	}
+
+}
+// p151

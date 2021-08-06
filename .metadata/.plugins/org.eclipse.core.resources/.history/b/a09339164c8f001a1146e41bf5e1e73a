@@ -1,0 +1,15 @@
+
+//	자바에선 변수 초기화를 하지 않으면 사용할 수 없다
+
+public class Tutorial3 {
+
+	public static void main(String[] args) {
+
+		int a = (int) 0.5;
+//		정수형
+		System.out.println(a);
+		
+
+	}
+
+}

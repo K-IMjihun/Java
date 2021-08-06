@@ -1,0 +1,18 @@
+//	연산자 = 계산의 기본
+//	ex) 1 + 2 = (1, 2 = 피연산자, + = 연산자)
+//  ++나 !같이 다양한 연산자가 사용되는 경우가 있다
+//	익숙해질 때 까지 사용하는게 중요
+public class Tutorial4 {
+
+	final static int SECOND = 1000;
+
+	public static void main(String[] args) {
+
+		int minute = SECOND / 60;
+		int second = SECOND % 60;
+		
+		System.out.println(miunte + "분" + second + "초")
+
+	}
+
+}

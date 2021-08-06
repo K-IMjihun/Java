@@ -1,0 +1,9 @@
+//	정수에 따라서 다른 메세지를 출력하는 프로그램 작성
+public class Tutorial55 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

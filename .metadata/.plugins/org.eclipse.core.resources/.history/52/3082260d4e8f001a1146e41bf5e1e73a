@@ -1,0 +1,14 @@
+//	데이터타입 - Integer, Character, Float, Double
+public class Tutorial33 {
+
+	public static void main(String[] args) {
+
+		double a = 10.3;
+		double b = 8.3;
+		double c = 10.2;
+				
+		System.out.println((a + b + c) / 3);
+
+	}
+
+}

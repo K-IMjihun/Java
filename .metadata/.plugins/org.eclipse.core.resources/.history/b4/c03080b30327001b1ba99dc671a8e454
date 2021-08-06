@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Jung {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("정진원의 커피 볶는집 뭐 시키실?");
+	System.out.println("아메리카노 카페라떼 얼음 물 있음");
+	String coffee = sc.next();
+	int number = sc.nextInt();
+	switch(coffee) {
+	case "아메리카노":
+		System.out.println("아메리카노" + number + "잔 나왔습니다. " + number*4000 + "원 입니다.");
+	}
+	}
+
+}

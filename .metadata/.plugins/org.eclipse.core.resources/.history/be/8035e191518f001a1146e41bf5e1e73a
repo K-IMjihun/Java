@@ -1,0 +1,14 @@
+
+public class Tutorial333 {
+
+	public static void main(String[] args) {
+
+		String name = "KIM Jihun";
+		System.out.println(name);
+		System.out.println(name.substring(0. 2));
+		
+	
+
+	}
+
+}

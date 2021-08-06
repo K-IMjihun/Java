@@ -1,0 +1,21 @@
+
+public class Tutorial2 {
+
+	public static void main(String[] args) {
+
+
+	int intType = 100;
+	double doubleType = 150.5;
+	String stringType = "김지훈";
+//	int = 정수형(소수점x)을 나타냄
+	
+	
+	System.out.println(intType);
+	System.out.println(doubleType);
+	System.out.println(stringType);
+
+
+		
+	}
+
+}

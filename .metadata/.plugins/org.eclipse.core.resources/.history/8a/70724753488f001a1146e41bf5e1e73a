@@ -1,0 +1,14 @@
+
+public class Tutorial2 {
+
+	public static void main(String[] args) {
+
+
+	int intType = 100;
+	//int = 정수형
+	//intType = 변수형
+
+		
+	}
+
+}

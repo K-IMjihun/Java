@@ -1,0 +1,19 @@
+
+public class Book1 {
+	String title;
+	String author;
+	
+	void show() {System.out.println(title + " " + author);}
+	
+	public Book1() {
+		this("","");
+		System.out.println("생성자 호출됨");
+	}
+	public Book1() {
+		this(title,"작자미상");
+	}
+	public static void main(String[] args) {
+	
+	}
+
+}

@@ -1,0 +1,26 @@
+53p
+	char 	=	 _ 사용가능
+				false; 사용불가
+				
+	void 	= 	$ 사용가능
+			=	null 사용불가
+			
+	class	=	숫자 사용가능
+				if 사용불가
+				
+	int		=	길이제한 없음,한글 식별자 사용가능
+	int barChart;	int barchart;	=	대소문자 구분
+	
+	리터럴(literal)
+		즉시값(immediate value)라고도 부른다
+		변수를 원하는 값으로 초기화 했을 떄, 그 값을 리터럴 이라고 한다
+		ex) int i = 5	(5가 리터럴)
+		
+58p		특수문자 리터럴 
+      
+61p	강제타입 변환(casting)
+ 	
+64p		Scanner클래스의 중요 메소드
+
+ 	
+ 	

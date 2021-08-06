@@ -1,0 +1,28 @@
+//	연산자 = 계산의 기본
+//	ex) 1 + 2 = (1, 2 = 피연산자, + = 연산자)
+//  ++나 !같이 다양한 연산자가 사용되는 경우가 있다
+//	익숙해질 때 까지 사용하는게 중요
+public class Tutorial4 {
+
+	final static int SECOND = 1000;
+
+	public static void main(String[] args) {
+
+		int minute = SECOND / 60;
+//		분 = 초를 60으로 나눈것
+		int second = SECOND % 60;
+//		60을 넘지 않는 상태에서 나머지 값을 표기
+		System.out.println(minute + "분" + second + "초");
+//		1000초는 16분 40초이다
+		
+		int a = 10;
+		System.out.println("현재의 a는" + a + "입니다.");
+		a++;
+//		++ = +1
+		System.out.println("현재의 a는" + a + "입니다.");
+		System.out.println("현재의 a는" + ++a + "입니다.");
+//		출력 이전의 1을 더해주는 방식
+		System.out.println("현재의 a는" + a++ + "입니다.");
+	}
+
+}

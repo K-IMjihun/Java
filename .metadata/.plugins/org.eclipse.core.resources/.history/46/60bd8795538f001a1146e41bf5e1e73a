@@ -1,0 +1,22 @@
+
+public class Tutorial22 {
+	
+	final static double PI = 3.141592;
+//	final = 상수(메인함수 밖에 적용, 한번 설정 되면 값이 바뀌지 않음)
+//	static = 하나의 클래스에서 공유하는 자원
+	final static int INT_MAX = 2147483647;
+//	2147483647 = int가 가질 수 있는 최댓값
+
+	public static void main(String[] args) {
+		
+		int r = 30;
+		System.out.println( r * r * PI);
+//		반지름이 30인 원의 넓이를 구하는 것
+		int a = INT_MAX;
+		System.out.println(a + 1);
+//		오버플로 = int의 최댓값을 초과하면 최솟값(-2147483648)으로 돌아감
+		
+
+	}
+
+}
